@@ -43,6 +43,24 @@
 1. **绝对无偏的收敛能力：** 在大样本 ($N=10000$) 场景下，Stacking-LM 架构的绝对偏差 (Absolute Bias) 完美逼近 **0.025**，实现了无偏的因果处理效应估计。
 2. **碾压级的方差控制：** 在包含指数与对数混合生成的极端非线性场景（情形 5）中，Stacking-LM 架构有效抵御了噪声干扰，其**均方根误差 (RMSE) 较全黑盒架构 (Stacking-RF) 大幅降低了 32%**。
 3. **白盒化的动态权重分配：** 通过深度解析元学习器系数矩阵发现，Stacking-LM 具备强大的自适应能力：在简单线性场景中赋予 Bagging 最高权重，而在深层非线性场景中则自动将权重向 RF 和 GBM 倾斜。
+4. **部分可视化结论展示：** 重点展示了在Stacking集成下，对不同的次级学习器LM与RF所得到的结果，按照预设的评判标准做一个可视化的比较。其他数据（excel 可视化图表等）请联系邮箱 3035402815@qq·com 或微信 zc17709337386
+## **各基学习器占比：**
+<img width="3600" height="2400" alt="dml_stacking_contribution_percent" src="https://github.com/user-attachments/assets/51d4f29c-3c74-4ffa-9342-224a61440f35" />
+<img width="4500" height="3000" alt="dml_stacking_learner_contribution" src="https://github.com/user-attachments/assets/19261d6f-5c83-4c0c-8791-34d5507a3e0c" />
+<img width="4500" height="3000" alt="dml_stacking_rf_learner_contribution" src="https://github.com/user-attachments/assets/12239860-b161-4e72-86cc-efb9eca76c20" />
+## **LM RF偏差比较：**
+
+<img width="3000" height="2400" alt="dml_stacking_bias" src="https://github.com/user-attachments/assets/30d25ba6-2bc5-4a29-ba40-29fec9f22c60" />
+<img width="3000" height="2400" alt="dml_stacking_rf_bias" src="https://github.com/user-attachments/assets/c68637ca-8085-456c-a5e0-af411e33ce64" />
+## **LM RF 的均值比较：**
+<img width="3000" height="2400" alt="dml_stacking_mean" src="https://github.com/user-attachments/assets/8ea92b41-31f6-4c02-a601-f9b29f1b5bc7" />
+<img width="3000" height="2400" alt="dml_stacking_rf_mean" src="https://github.com/user-attachments/assets/da796cec-3f93-423c-b9bf-8e723e13ec6e" />
+## **LM RF 的均方根误差比较：**
+<img width="3600" height="2400" alt="dml_stacking_performance" src="https://github.com/user-attachments/assets/d4224876-7f49-479b-98ec-74980945200d" />
+<img width="3600" height="2400" alt="dml_stacking_rf_performance" src="https://github.com/user-attachments/assets/aa360c2f-c7b8-4f82-b445-5286960aba54" />
+
+
+
 
 ---
 
