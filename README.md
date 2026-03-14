@@ -4,14 +4,15 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
 ![Status](https://img.shields.io/badge/Status-Academic_&_Engineering_Ready-orange.svg)
-<div align="center">
+
 
 **📑 核心资产导航 (Core Assets Navigation)**
 <br>
-[📖 自述文件 (README)](#) &nbsp; | &nbsp; [📐 开放性问题和展望 (Markdown 源码)](开放性问题和展望.md) &nbsp; | &nbsp; [📄 基于数学证明的理论推演完整版 (PDF 下载)](数学上的一些思考.pdf)
+[📖 核心自述文件 (README)](#) &nbsp; | &nbsp; [🔮 方法论深度反思与理论边界探索](开放性问题与展望.md) &nbsp; | &nbsp; [📄 渐近理论与基于泛函的分析 (PDF 下载)](数学上的一些思考.pdf)
 
 </div>
 
+---
 ---
 本开源项目提供了一套从零硬编码（Hard-coded）的**双重机器学习 (Double Machine Learning, DML)** 仿真与评估框架。项目致力于解决高维观测数据因果推断中的“维度诅咒”与“正则化偏误”问题。通过整合 Neyman 正交化与严格的交叉拟合（Cross-fitting）技术，并提出并验证了高度优化的 **Stacking-LM (线性元学习器融合)** 架构，实现了在极端非线性场景下的无偏因果效应估计。
 
