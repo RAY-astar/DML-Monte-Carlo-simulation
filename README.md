@@ -8,7 +8,7 @@
 
 **📑 核心资产导航 (Core Assets Navigation)**
 <br>
-[📖 自述文件 (README)](#) &nbsp; | &nbsp; [📐 渐近理论与泛函边界证明 (Markdown 源码)](数学上的想法.md) &nbsp; | &nbsp; [📄 基于数学证明的理论推演完整版 (PDF 下载)](数学上的一些思考.pdf)
+[📖 自述文件 (README)](#) &nbsp; | &nbsp; [📐 开放性问题和展望 (Markdown 源码)](开放性问题和展望.md) &nbsp; | &nbsp; [📄 基于数学证明的理论推演完整版 (PDF 下载)](数学上的一些思考.pdf)
 
 </div>
 
